@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 34px;
+  left: 0;
+  top: 0;
+  background: rgb(244, 244, 244);
+}
+.header-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 40px;
+  height: 100%;
+}
+.header-text {
+  color: rgb(52, 58, 63);
+  font-family: "Maza";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: none;
+}
+.header-contacts-block {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.header-contacts-miniblock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+.header-scedule-block {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.header-menu-block {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.svg path {
+  fill: rgba(52, 58, 63, 0.5);
+}/*# sourceMappingURL=index.css.map */
