@@ -24,7 +24,6 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
-  letter-spacing: 0%;
   text-align: left;
   text-decoration: none;
 }
@@ -52,4 +51,70 @@
 
 .svg path {
   fill: rgba(52, 58, 63, 0.5);
+}
+
+.menu-logo {
+  width: 80px;
+  height: 80px;
+}
+.menu-button {
+  border: 1px solid rgb(72, 136, 255);
+  border-radius: 8px;
+  background: rgb(72, 136, 255);
+  padding: 16px;
+  width: 101px;
+  height: 48px;
+  cursor: pointer;
+}
+.menu-placeholder-block {
+  border: 1px solid rgba(72, 136, 255, 0.2);
+  border-radius: 8px;
+  width: 654px;
+  height: 48px;
+  padding: 4px;
+  display: flex;
+}
+.menu-input {
+  height: 100%;
+  width: 90%;
+  padding: 14px 24px;
+  border: none;
+}
+.menu-search-button {
+  color: rgb(255, 255, 255);
+  font-family: "Maza";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  padding: 11px 20px;
+  border-radius: 4px;
+  background: rgb(72, 136, 255);
+  border: none;
+}
+.menu-socialmedia-button {
+  border-radius: 4px;
+  background: rgb(244, 244, 244);
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+}
+.menu .socialmedia-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.menu-socialmedia-button:hover {
+  background: rgb(222, 222, 222);
+}
+
+.menu-input:focus-visible {
+  outline: none;
+}
+
+.menu-button:hover {
+  border: 1px solid rgb(68, 127, 236);
+  border-radius: 8px;
+  background: rgb(47, 119, 249);
+  transition: 2ms;
 }/*# sourceMappingURL=index.css.map */
